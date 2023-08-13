@@ -1,0 +1,16 @@
+
+	https://github.com/taylordigital13/ARjs_Unity
+	
+	https://ar-js-org.github.io/AR.js-Docs/
+	https://github.com/ar-js-org
+	https://github.com/AR-js-org/AR.js
+	
+	https://github.com/ngokevin/aframe-core/blob/master/docs/components/material.md
+	
+	https://carnaux.github.io/NFT-Marker-Creator/#/
+	
+	https://github.com/Carnaux/NFT-Marker-Creator
+	
+	https://aframe.io/docs/1.4.0/core/entity.html
+	
+	https://medium.com/arjs/how-to-create-your-own-marker-44becbec1105
