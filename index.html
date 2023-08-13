@@ -23,7 +23,7 @@
 </style>
 
 <body style="margin : 0px; overflow: hidden;">
-<h2>AR TEST</h2>
+<h2>AR TEST v.2</h2>
   <!-- minimal loader shown until image descriptors are loaded -->
   <div class="arjs-loader">
     <div>Loading, please wait...</div>
@@ -39,12 +39,27 @@
   
     <a-assets>
   <img id="my-texture" src="textures/Pista 1.png">
+  <img id="my-texture2" src="textures/Pista 2.jpg">
 </a-assets>
   
 	  <a-marker preset="hiro">
 <a-plane src="textures/Pista 1.png" id="Plane_0" class="intersectable" width="1" height="1" position="0 0 0" rotation="0 0 0" color="#FFFFFF" transparent=True
 ></a-plane>
 	</a-marker>
+	
+	    <a-nft
+      type="nft"
+      url="https://se-busto.github.io/trex/trex-image/2"
+      smooth="true"
+      smoothCount="10"
+      smoothTolerance=".01"
+      smoothThreshold="5"
+    >
+	  
+	   <a-entity geometry="primitive: plane; width: 500; height: 500" rotation="-90 0 0" position="0 0 0" material="src: #my-texture2">
+      </a-entity>
+	  
+    </a-nft>
 
 
     <a-nft
