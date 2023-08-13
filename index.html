@@ -23,15 +23,12 @@
 </style>
 
 <body style="margin : 0px; overflow: hidden;">
-<h2>11111</h2>
+<h2>33333</h2>
   <!-- minimal loader shown until image descriptors are loaded -->
   <div class="arjs-loader">
     <div>Loading, please wait...</div>
   </div>
-  
-  <a-assets>
-  <img id="my-texture" src="textures/Pista 1.png">
-</a-assets>
+ 
   
   <a-scene
     vr-mode-ui="enabled: false;"
@@ -39,6 +36,10 @@
     embedded
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
+  
+    <a-assets>
+  <img id="my-texture" src="textures/Pista 1.png">
+</a-assets>
   
 	  <a-marker preset="hiro">
 <a-plane src="textures/Pista 1.png" id="Plane_0" class="intersectable" width="1" height="1" position="0 0 0" rotation="0 0 0" color="#FFFFFF" transparent=True
@@ -62,7 +63,7 @@
       >
       </a-entity>-->
 	  
-	   <a-entity geometry="primitive: plane; width: 500; height: 500" rotation="270 180 180" position="0 0 0" material="src: #my-texture">
+	   <a-entity geometry="primitive: plane; width: 500; height: 500" rotation="0 0 0" position="0 0 5" material="src: #my-texture; color: #FFFFFF">
       </a-entity>
 	  
 
