@@ -23,11 +23,16 @@
 </style>
 
 <body style="margin : 0px; overflow: hidden;">
-<h2>111111111</h2>
+<h2>222222</h2>
   <!-- minimal loader shown until image descriptors are loaded -->
   <div class="arjs-loader">
     <div>Loading, please wait...</div>
   </div>
+  
+  <a-assets>
+  <img id="my-texture" src="textures/Pista 1.png">
+</a-assets>
+  
   <a-scene
     vr-mode-ui="enabled: false;"
     renderer="logarithmicDepthBuffer: true;"
@@ -57,7 +62,7 @@
       >
       </a-entity>-->
 	  
-	   <a-entity geometry="primitive: plane; width: 500; height: 500"  position="0 0 0" material="textures/Pista 1.png">
+	   <a-entity geometry="primitive: plane; width: 500; height: 500"  position="0 0 0" material="src: #my-texture">
       </a-entity>
 	  
 
