@@ -14,3 +14,9 @@
 	https://aframe.io/docs/1.4.0/core/entity.html
 	
 	https://medium.com/arjs/how-to-create-your-own-marker-44becbec1105
+	
+	--------------------- Revisión 2 ---------------------
+
+	https://hiukim.github.io/mind-ar-js-doc/
+	
+	https://studio.pictarize.com/login
